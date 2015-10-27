@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'search_pages#home'
+  get '/list', to: 'search_pages#list'
+  get '/contact', to: 'search_pages#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

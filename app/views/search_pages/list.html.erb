@@ -1,16 +1,4 @@
-<% provide(:title, "Home") %>
-
-<div class="center jumbotron">
-  <h1>Welcome to Ginvite</h1>
-  <h2>
-    <%= form_tag root_path, :method => 'get' do %> 
-      <p>
-        <%= text_field_tag :search, params[:search] %>
-        <%= submit_tag "Search", :artist => nil %>
-      </p>
-    <% end %>
-  </h2>
-</div>
+<% provide(:title, "List") %>
 
 <div class="center jumbotron">
 <table border="1">

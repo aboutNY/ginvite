@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist: MyString
+  place: MyString
+  gig_date: 2015-10-05
+
+two:
+  artist: MyString
+  place: MyString
+  gig_date: 2015-10-05
+
+three:
+  artist: hoge
+  place: huga
+  gig_date: 2015-11-05
