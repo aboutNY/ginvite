@@ -3,14 +3,15 @@
 <div class="center jumbotron">
 <table border="1">
   <tr>
-    <th>アーティスト名</th><th>公演場所</th><th>日程</th>
+    <th>公演場所</th><th>日程</th><th>タイトル</th><th>アーティスト名</th>
   </tr>
 
   <% @gig.each do |gig| %>
     <tr>
-      <td><%= gig.artist %></td>
       <td><%= gig.place %></td>
       <td><%= gig.gig_date %></td>
+      <td><%= gig.title %></td>
+      <td><%= gig.artist %></td>
     </tr>
   <% end %>
 </table>
