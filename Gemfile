@@ -11,7 +11,7 @@ gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
 gem 'ransack'   # 検索機能のgem
 gem 'nokogiri'
-gem 'anemone' , :github => 'totothink/anemone'
+gem 'anemone'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
